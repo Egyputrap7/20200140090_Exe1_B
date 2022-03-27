@@ -3,9 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/EGY/SM4/TodoApps/app/src/main/res/font/font.xml" value="0.3" />
         <entry key="..\:/EGY/SM4/TodoApps/app/src/main/res/layout/activity_daftar.xml" value="0.17543859649122806" />
         <entry key="..\:/EGY/SM4/TodoApps/app/src/main/res/layout/activity_hasil_todo.xml" value="0.264" />
-        <entry key="..\:/EGY/SM4/TodoApps/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/EGY/SM4/TodoApps/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/EGY/SM4/TodoApps/app/src/main/res/layout/activity_to_do.xml" value="0.176" />
       </map>
     </option>

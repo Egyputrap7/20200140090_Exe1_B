@@ -36,6 +36,10 @@ public class Daftar extends AppCompatActivity {
                         edtPasssword.getText().toString().isEmpty()||
                         edtrepass.getText().toString().isEmpty())
                 {
+                    edtNama.setError("Nama Harus Di isi");
+                    edtEmail.setError("Email harus di isi");
+                    edtPasssword.setError("Password harus di isi");
+                    edtrepass.setError("RePassword harus di isi");
                     Snackbar.make(view,"Wajib Di isi seluruh data!!",Snackbar.LENGTH_LONG).show();
                 }
                 else

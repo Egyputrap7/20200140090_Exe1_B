@@ -19,8 +19,22 @@
             android:layout_width="193dp"
             android:layout_height="124dp"
             android:layout_gravity="center"
-            android:layout_margin="100dp"
+            android:layout_margin="80dp"
             app:srcCompat="@drawable/list" />
+
+        <TextView
+            android:id="@+id/autoCompleteToEn"
+            android:layout_width="231dp"
+            android:layout_height="34dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="150px"
+            android:fontFamily="@font/condiment"
+            android:text="@string/come"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
 
         <EditText
             android:id="@+id/edNama"
@@ -82,6 +96,7 @@
             android:text="@string/bDaftar"
             android:textColor="@color/teal_700"
             android:textSize="50px"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

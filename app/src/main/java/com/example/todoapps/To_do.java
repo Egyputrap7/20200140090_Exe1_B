@@ -42,6 +42,8 @@ public class To_do extends AppCompatActivity {
                 LA.putExtra("Wkt",Waktu);
 
                 startActivity(LA);
+
+                eTaks.setError("Taks Harus Di isi");
             }
         });
 

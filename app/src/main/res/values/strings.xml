@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">To do Apps</string>
+    <string name="aNama">Nama anda</string>
+    <string name="aPass">Password</string>
+    <string name="xPass">Nama User</string>
+    <string name="aEmail">Email</string>
+    <string name="bSignin">Sign-in</string>
+    <string name="bDaftar">Daftar</string>
+    <string name="aTask">Masukan Nama Taks</string>
+    <string name="ajenis">Masukan Jenis Taks</string>
+    <string name="aWaktu">Masukan Lama Taks</string>
+    <string name="tData">Data Taks Anda</string>
+    <string name="tTaks">Taks</string>
+    <string name="tJenis">Jenis</string>
+    <string name="tWaktu">Waktu</string>
+    <string name="txTaks">Taks Anda</string>
+    <string name="txJenis">Jenis Taks</string>
+    <string name="txWaktu">Waktu Taks</string>
+    <string name="fDaftar">Halaman Pendaftar</string>
+    <string name="dNama">Masukan Nama</string>
+    <string name="dEmail">Masukan Email</string>
+    <string name="dPassword">Masukan Pasword</string>
+    <string name="drPassword">Verivikasi Password</string>
+
+
+</resources>

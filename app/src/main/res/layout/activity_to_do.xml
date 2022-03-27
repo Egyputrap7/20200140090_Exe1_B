@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/navy_blue"
+    tools:context=".To_do">
+
+    <EditText
+        android:id="@+id/eTaks"
+        android:textColor="@color/white"
+        android:layout_width="211dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginLeft="196dp"
+        android:ems="10"
+        android:hint="@string/aTask"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/eJenis"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867" />
+
+    <EditText
+        android:id="@+id/eJenis"
+        android:textColor="@color/white"
+        android:layout_width="214dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginLeft="196dp"
+        android:ems="10"
+        android:hint="@string/ajenis"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/eWaktu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <EditText
+        android:id="@+id/eWaktu"
+        android:textColor="@color/white"
+        android:layout_width="217dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginLeft="196dp"
+        android:ems="10"
+        android:hint="@string/aWaktu"
+        android:textColorHint="@color/white"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.418" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textColor="@color/white"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="144dp"
+        android:text="Task"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/eTaks"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:textColor="@color/white"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="216dp"
+        android:text="Jenis Taks"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/eTaks"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:textColor="@color/white"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="284dp"
+        android:text="Lama Taks"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/eTaks"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/AddBut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eWaktu"
+        app:layout_constraintVertical_bias="0.298"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.121"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <TextView
+        android:id="@+id/tvNama"
+        android:textStyle="bold"
+        android:textColor="@color/deepskyblue"
+        android:textAlignment="viewStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama User"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/eTaks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.671"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+</androidx.constraintlayout.widget.ConstraintLayout>
